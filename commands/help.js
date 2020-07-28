@@ -8,7 +8,7 @@ exports.run = async (message, client, args, cmd) => {
     else prefix = fetchedPrefix
 
     let embed = new Discord.MessageEmbed()
-    .setThumbnail(avatar)
+    // .setThumbnail(avatar)
     .setColor("#42dba6")
     .setDescription(`This is a list of commands you can use. You can get more info about a specific command by using \`${prefix}help [command]\` (e.g. \`${prefix}help profile)\``)
     .addField("Economy", `.`)
